@@ -1,0 +1,237 @@
+body{
+	background-color: #0E0E0E;
+	margin:0;
+}
+/*banner starts*/
+.style{
+	width: 73%;
+    margin: 0 auto;
+}
+.banner{
+    height: 500px;
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    overflow: hidden;
+}
+.wrapper{
+    overflow: hidden;
+}
+.wrapper a img{
+    float: left;
+    margin-left: 78px;
+    padding-top: 28px;
+    cursor: -webkit-grab;
+}
+
+.wrapper p{
+    float: left;
+    margin-top: 18px;
+    padding-left: 10px;
+    color: white;
+    font-family: serif;
+    font-size: 37px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.menu{
+    float: right;
+    padding-right: 104px;
+    margin-top: 27px;
+}
+.menu:hover{
+	cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+    width: 32px;
+    height: 4px;
+    background-color: #1d1209;
+    margin: 6px 0;
+    transition: 0.5s
+}
+/* for rotating 1st */
+.animate .bar1{
+	-webkit-transform:rotate(-45deg) translate(-9px,6px);
+	transform:rotate(-45deg) translate(-9px,6px);
+}
+/* for fade out 2nd bar*/
+.animate .bar2{
+	opacity: 0;
+}
+/*for rotateing last bar*/
+.animate .bar3{
+	-webkit-transform:rotate(45deg) translate(-8px,-8px);
+	transform:rotate(45deg) translate(-8px,-8px);
+}
+.banner h1{
+	text-align: center;
+    color: white;
+    font-size: 41px;
+    font-family: sans-serif;
+    margin-top: 93px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+}
+.search-box-wrapper{
+    display: inline-flex;
+    font-size: 20px;
+    margin-left: 296px;
+}
+.search-box-input{
+	height: 14px;
+    width: 273px;
+    font-size: 16px;
+    border-radius: 0;
+    padding: 0.5em 0.5em;
+    outline: 0;
+    font-family: monospace;
+    letter-spacing: -1px;
+    color: #ADADAD;
+    font-weight: lighter;
+}
+.search-box-input:hover ,.search-box-input-focus{
+  border-color: black;
+}
+.search-box-button{
+    width: 100px;
+    font-size: 17px;
+    border-radius: 0;
+    background-color: #FD5031;
+    border: 0;
+    padding: 0 0.75em;
+    color: white;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+    font-family: monospace;
+    letter-spacing: 1px;
+    opacity: 0.8
+  }
+.search-box-button:hover{
+	transition: 0.6s;
+	opacity: 1;
+}
+.search-box-button-focus:hover{
+  border-color: black;
+}
+/*banner ends*/
+/*info starts*/
+.info{
+    width: 100%;
+    background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
+}
+.info h3{
+    margin: 0;
+    font-family: serif;
+    padding-top: 45px;
+    padding-left: 96px;
+    color: #535353;
+    text-transform: uppercase;
+}
+.info p{
+    margin-top: 9px;
+    padding-left: 97px;
+    color: #A8A8A8;
+    font-family: serif;
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+.new-wrapper{
+	width: 80%;
+    margin: auto;
+    background-color: white;
+    overflow: hidden;
+    height: 265px;
+}
+.wrap-style{
+    width: 23%;
+    background-color: white;
+    float: left;
+    padding-left: 21px;
+}
+
+.wrap-style img {
+    width: 185px;
+    height: 133px;
+}
+.wrap-style h3{
+    padding-top: 10px;
+    padding-left: 14px;
+    font-size: 12px;
+    color: dimgray;
+    font-family: sans-serif;
+}
+.wrap-style h3 a{
+	list-style: none;
+	text-decoration: none;
+
+}
+.wrap-style h3 a:link{
+	color: dimgray;
+}
+.wrap-style h3 a:visited{
+	color: dimgray;
+}
+.wrap-style h3 a:hover{
+	color: lightblue;
+	transition: 0.6s;
+}
+.wrap-style h3 a:active{
+	color: dimgray;
+}
+.wrap-style p{
+    padding-top: 8px;
+    padding-left: 13px;
+    font-size: 12px;
+    font-family: cursive;
+}
+.wrap-style:first-child{
+	padding-left: 0;
+}
+.wrap-style:last-child{
+	margin-right: 0;
+} 
+/*info ends*/
+/*footer starts*/
+.footer{
+	height: 50px;
+	background-color: #EFEFEF;
+}
+.end{
+	height: 150px;
+	background-color: white;
+}
+.navs a:link{
+color:dimgrey;
+}
+
+.navs a:visited{
+color: dimgrey;
+}
+.navs a:hover{
+color: lightblue;
+transition: 0.6s;
+}
+.navs a:active{
+color: dimgrey;
+}
+.navs{
+    margin-left: 100px;
+    margin-top: 35px;
+    float: left;
+}
+.navs a{
+	text-decoration: none;
+}
+.navs span{
+	color: blue;
+}
+
+.navs p{
+	color: black;
+}
+/*footer ends*/

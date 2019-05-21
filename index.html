@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<head>
+	<title>Travelly.com</title>
+<link rel="stylesheet"href="css/style.css">
+</head>
+<body>
+	<!--banner starts-->
+	<section class="style">
+	<div class="banner" id="banner">
+		<div class="wrapper">
+			<a href="#info"><img src="images/logo.jpg" alt="logo"></a> &nbsp;&nbsp;
+			<p>travelly</p>
+
+			<div class="menu" onclick="myAnimation(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<script type="text/javascript">
+				function myAnimation(x){
+					x.classList.toggle("animate");
+				}
+			</script>
+
+		</div>
+		<h1>Where will you go next?</h1>
+			<div class="search-box-wrapper">
+			<input class="search-box-input" type="text" placeholder="Start Typing...">
+			<button class="search-box-button" onclick="alert('In Progress')">GO</button>
+		</div>
+	</div>
+	</section>
+	<!--Banner Ends-->
+	<!--info starts-->
+	<section class="style">
+		<div class="info" id="info">
+			<h3>Top Destinations</h3>
+			<p>Some of the Top Destinations for your Next Summer Adventure</p>
+			<div class="new-wrapper">
+				<div class="wrap-style">
+					<img src="images/aus.jpg" alt="aus">
+					<h3><a href="https://images.pexels.com/photos/1872047/pexels-photo-1872047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" target="_blank" alt="aus">AMAZING AUSTRALIA</a></h3>
+					<p>Become inspired to travel to australia.Discover fantastic things to do and places to go</p>
+				</div>
+				<div class="wrap-style">
+					<img src="images/anc.jpg" alt="anc">
+					<h3><a href="https://images.pexels.com/photos/1307986/pexels-photo-1307986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" target="_blank" alt="anc">ANCIENT SOUTH AMERICA</a></h3>
+					<p>Become inspired to travel to Ancient South America.Discover fantastic things to do and places to go</p>
+				</div>
+				<div class="wrap-style">
+					<img src="images/nor.jpg" alt="north">
+					<h3><a href="https://images.pexels.com/photos/41004/alaska-wilderness-sky-aurora-borealis-41004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" target="_blank" alt="nor">MODERN NORTH AMERICA</a></h3>
+					<p>Become inspired to travel to Modern North America.Discover fantastic things to do and places to go</p>
+				</div>
+					<div class="wrap-style">
+					<img src="images/eur.jpg" alt="eur">
+					<h3><a href="https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" target="_blank" alt="europe">CLASSIC EUROPE</a></h3>
+					<p>Become inspired to travel to Europe.Discover fantastic things to do and places to go</p>
+				</div>
+			</div>	
+		</div>
+		<!--info ends-->
+		<!--footer starts-->
+		<div class="footer"></div>
+		<div class="end">
+						<nav class="navs">
+					<a href="#banner">Home</a>&nbsp;&nbsp;&nbsp;<span>|</span>
+					<a href="#" onclick="alert('In Progress')">&nbsp;&nbsp;About Us</a>&nbsp;&nbsp;<span>|</span>   
+					<a href="#" onclick="alert('In Progress')">&nbsp;&nbsp;Contact us</a>&nbsp;&nbsp;&nbsp;<span>|</span><br>
+					<p>Copyrights&copy;2018.Travelly.com,All Rights Reserved</p>
+			</nav>
+		</div>
+
+	</section>
+		<!--footer ends-->
+</body>
+</html>
